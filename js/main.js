@@ -8,7 +8,7 @@ const CONFIG = {
   mapsUrl: '',
   regalos: [
     { texto: '', url: '' },   // 1.er botón de mesa de regalos (Liverpool)
-    { texto: '', url: '' }    // 2.º botón de mesa de regalos (Amazon)
+    { texto: '', url: 'https://www.amazon.com.mx/baby-reg/mnica-delgado-ascan-delavega-febrero-2027-aguascalientes/3MLVY9ST8KHM9?ref_=cm_sw_r_apann_dp_2YHXGQBY3YBBX4RMVTQD&language=en-US' }    // 2.º botón de mesa de regalos (Amazon)
   ],
 
   // URL de la app web de Google Apps Script (ver apps-script/Code.gs y README).
