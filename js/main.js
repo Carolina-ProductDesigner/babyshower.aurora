@@ -82,8 +82,8 @@ form.addEventListener('submit', async (e) => {
       console.warn('Modo prueba: falta scriptUrl, no se guardó nada.');
     }
     mostrarGracias(datos.asistencia === 'Sí'
-      ? 'Gracias por confirmar, ¡nos vemos pronto!'
-      : 'Gracias por confirmar, ¡te veré en otra ocasión!');
+      ? 'Gracias por confirmar, ¡Nos vemos muy pronto! 🩷'
+      : 'Gracias por confirmar, ¡Te veré en otra ocasión!');
   } catch (err) {
     console.error('Error al enviar la confirmación:', err);
     mostrar('No se pudo enviar. Intenta de nuevo, por favor.', true);
